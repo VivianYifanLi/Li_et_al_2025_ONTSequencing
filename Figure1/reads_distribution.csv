@@ -1,0 +1,5 @@
+﻿Platform,Run_ID,"""Total number of reads""","""Minimum number of reads""","""Maximum number of reads""","""Average number of reads""","""Median number of reads""","""Number of genera detected (SILVA)"""
+ONT,Run_1,378742,9525,31514,21041.22,21938,75
+ONT,Run_2,102580,2508,8789,5698.889,6099.5,75
+ONT,Run_3,98616,2485,8427,5478.667,5826,75
+Illumina,Run_Illumina,575425,3259,55136,26155.68,25901.5,20
