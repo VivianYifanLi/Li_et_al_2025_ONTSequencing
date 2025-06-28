@@ -1,6 +1,9 @@
 # Li_et_al_2025_ONTSequencing
 This repostory contains scripts and data files generated for the study titled "Evaluation of full-length 16s rRNA amplicon sequencing using Oxford Nanopore Technologies for diversity surveys of understudied microbiomes".
 
+0-Sequence Preprocessing
+
+- Scripts for basecalling, cutadapt and prowler steps of sequence preprocessing in Methods section 2.5: Full-length 16S amplicon sequencing and data processing
 
 
 Figure 1
