@@ -27,7 +27,7 @@ Supplementary Figure 1
 
 - Input files and scripts used to generate Supplementary Figure 1
 
-  Supplementary Figure 2
+Supplementary Figure 2
 
 - Input files and scripts used to generate Supplementary Figure 2
 
