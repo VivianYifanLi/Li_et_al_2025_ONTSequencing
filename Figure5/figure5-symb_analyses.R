@@ -172,7 +172,7 @@ df_noc_clr <- psmelt(ps_noc_clr)
 
 ait_clr <- phyloseq::distance(ps_noc_clr, "euclidean")
 ait.nmds_clr = ordinate(ps_noc_clr, method="NMDS", distance=ait_clr)
-nmds_clr <- plot_ordination(ps_clr, ait.nmds_clr, type = "samples", color="cultureID") + geom_point(size = 3) + scale_color_manual(values=setpalette(6), name="cultureID") 
+nmds_clr <- plot_ordination(ps_clr, ait.nmds_clr, type = "samples", color="cultureID") + geom_point(size = 3) + scale_color_manual(values=setpalette(6), name="cultureID") + theme_bw()
 nmds_clr
 nmds_clr = nmds_clr + stat_ellipse(aes(group=cultureID,color=cultureID)) + 
   theme(text=element_text(size=20))
